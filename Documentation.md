@@ -57,3 +57,29 @@
 
   1. Space Complexity.
   2. Time Complexity.
+
+
+  ##### 1. Space Complexity:
+    The Space complexity of an algorithm is the amount of memory it needs to run to complete.
+
+    Space needed by an algorithm is given by S(P) = C(fixed part) + Sp(Variable part)
+
+    <strong>fixed part:</strong> independent of instance characteristics.
+                    eg: space for simple variables, constants e.t.c.
+    <strong>variable part:</strong> Space for variables whose size is dependant on particular problem instance.
+
+    ![Space Complexity](Pictures/Space_complexity_example.png "Space Complexity")
+
+  ##### 2. Time Complexity:
+    The time complexity of an algorithm is amount of computer time it needs to run to complete.
+    Time needed by an algorithm is given by T(P) = compile time + execution time.
+
+    compile time is excluded because it can be said that a program can be compiled once and can be run any number of times.
+
+    Therefore, Time Complexity is T(P) = tp(execution time)
+
+    Step count:
+    * For algorithm heading -> 0
+    * For braces -> 0
+    * For expressions -> 1
+    * For any looping statements -> no.of times the loop is repeating.
