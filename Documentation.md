@@ -83,3 +83,33 @@
     * For braces -> 0
     * For expressions -> 1
     * For any looping statements -> no.of times the loop is repeating.
+
+##### Asymptotic Notations
+
+  * Terminology that enables us to make meaningful statements about the time and space meaningful statements about the time and space complexities of an algorithm.
+    - Big "oh" (O)
+    - Big Omega(Ω)
+    - Theta(θ)
+    - Little "oh" (o)
+    - Little Omega (ω)
+
+##### <center>Big oh(O) notation</center>
+
+<strong>Definition:</strong> A function f(n) is said to be in O(g(n)), denoted by f(n)= O(g(n)) is bounded above by some constant multiple of g(n) for all large n, i.e., there
+exist positive constant c and non-negative integer n0 such that
+  f(n) <= c * g(n) for every n>= n0
+
+![Big (O)](Pictures/Big(O).png "Big(O)")
+
+##### <center>Ω-Notation</center>
+<strong>Definition:</strong> A funtion f(n) is said to be in Ω(g(n)), denoted by f(n) = Ω(g(n)), if f(n) is bounded below by some constant multiple of g(n) for all large n, i.e., if there exists some positive constant c and some nonnegative integer n0 such that
+  f(n) >= c * g(n) for all n >= n0
+
+<center><img src="Pictures/BigOmega.png" alt="BigOmega"></center>
+
+##### <center>θ-Notation</center>
+
+<strong>Definition:</strong> A function f(n) is said to be in θ(g(n)), denoted by f(n) = θ(g(n)), if f(n) is bounded both above and below by some positive constant multiples of g(n) for all large n, i.e., if there exist some positive constant c1 and c2 and some nonnegative integer n0 such that
+  c2g(n) <= f(n) <= c1g(n) for all n >= n0
+
+<center><img src="Pictures/Theta.png" alt="Theta"></center>
